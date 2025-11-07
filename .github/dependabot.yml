@@ -1,0 +1,144 @@
+version: 2
+updates:
+  # GitHub Actions
+  - package-ecosystem: "github-actions"
+    directory: "/"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 10
+
+  # Ruby projects
+  - package-ecosystem: "bundler"
+    directory: "/api/ruby/basics-of-authentication"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "bundler"
+    directory: "/api/ruby/building-a-ci-server"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "bundler"
+    directory: "/api/ruby/building-your-first-github-app"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "bundler"
+    directory: "/api/ruby/delivering-deployments"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "bundler"
+    directory: "/api/ruby/discovering-resources-for-a-user"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "bundler"
+    directory: "/api/ruby/rendering-data-as-graphs"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "bundler"
+    directory: "/api/ruby/traversing-with-pagination"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "bundler"
+    directory: "/api/ruby/working-with-comments"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "bundler"
+    directory: "/app/ruby/app-issue-creator"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "bundler"
+    directory: "/graphql"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "bundler"
+    directory: "/hooks/ruby/configuring-your-server"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "bundler"
+    directory: "/hooks/ruby/delete-repository-event"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "bundler"
+    directory: "/hooks/ruby/dismiss-review-server"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  # JavaScript/Node.js projects
+  - package-ecosystem: "npm"
+    directory: "/api/javascript/es2015-nodejs"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "npm"
+    directory: "/api/javascript/gha-cleanup"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "npm"
+    directory: "/api/javascript/org-invite"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "npm"
+    directory: "/graphql"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "npm"
+    directory: "/graphql/enterprise"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  # Python projects
+  - package-ecosystem: "pip"
+    directory: "/api/python/building-a-ci-server"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "pip"
+    directory: "/hooks/python/configuring-your-server"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  - package-ecosystem: "pip"
+    directory: "/hooks/python/flask-github-webhooks"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
+
+  # Java/Maven projects
+  - package-ecosystem: "maven"
+    directory: "/api/java/deployment"
+    schedule:
+      interval: "weekly"
+    open-pull-requests-limit: 5
